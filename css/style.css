@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @font-face {
     font-family: 'Gilroy';
     src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
@@ -7,23 +9,44 @@
     font-weight: 600;
     font-style: normal;
   }
+
 body {
     font-family: 'Gilroy', sans-serif;
 
-    background-image: url(background.png);
+    background: linear-gradient(45deg, #9e0050 0%, #0C0B0D 25%);
 }
 
 html{
 
-    background-image: url(background.png);
+    background: linear-gradient(45deg, #9e0050 0%, #0C0B0D 25%);
 
 }
+
 
         @media screen and (max-width: 767px) {
             .navbar {
                 background-color:  #121214;
             }
         }
+
+.alpha {
+    border: 2px solid #9e0050;
+    font-family: "Ubuntu Mono", monospace;
+    vertical-align: middle;
+    padding: 3px 20px;
+    border-radius: 35%;
+    font-size: 2vh;
+    color: #9e0050;
+}
+.release {
+    border: 2px solid #81009e;
+    font-family: "Ubuntu Mono", monospace;
+    vertical-align: middle;
+    padding: 3px 20px;
+    border-radius: 35%;
+    font-size: 2vh;
+    color: #81009e;
+}
 
 
 
@@ -137,7 +160,7 @@ html{
                padding: 15px 0;
                text-align: center;
            }
-           .demo a{
-             font-family: 'Raleway', sans-serif;
-           color: #000;
+           .demo a {
+               font-family: 'Raleway', sans-serif;
+               color: #000;
            }
